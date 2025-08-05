@@ -87,6 +87,7 @@ export default function PortfolioCard(props: {portfolio: Portfolio}) {
 						className="rounded-xl relative rounded-2xl h-[120rem] m-auto"
 						alt={`FTC ${portfolio.team_number} ${portfolio.team_name}'s Thumbnail`}
 						aria-hidden
+						unoptimized
 						layout="fill"
 						objectFit="contain"
 						loading="eager"
